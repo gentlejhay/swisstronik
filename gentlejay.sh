@@ -14,7 +14,7 @@ npm install @swisstronik/utils
 echo "Installation completed."
 
 echo "Creating a Hardhat project..."
-npx hardhat
+npx hardhat init
 
 rm -f contracts/Lock.sol
 echo "Lock.sol removed."
